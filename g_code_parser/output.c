@@ -1,0 +1,54 @@
+#include "motor.h"
+extern float xPos;
+extern float yPos;
+extern float zPos;
+void run_g_code() {
+liftServo();
+moveToXYZ(xPos,yPos,zPos);
+moveToXYZ(85.4226,72.5714,zPos);
+dropServo();
+moveToXYZ(xPos,yPos,zPos);
+moveArcCW(85.1648,70.2939,zPos,-0.9466,-1.0462);
+moveArcCW(83.0288,69.9256,zPos,-1.5897,2.8423);
+moveArcCW(79.7189,73.0124,zPos,0.6905,4.0583);
+moveArcCW(80.131,77.3591,zPos,6.4946,1.5772);
+moveArcCW(85.7295,81.7152,zPos,6.9596,-3.1688);
+moveArcCW(92.6042,80.5089,zPos,1.7984,-9.9433);
+moveArcCW(98.0746,72.4291,zPos,-5.6429,-9.7123);
+moveArcCW(96.006,62.996,zPos,-13.4995,-1.9829);
+moveArcCW(85.4523,56.3869,zPos,-12.4126,8.09);
+moveArcCW(73.4534,59.3423,zPos,-2.1589,17.0705);
+moveArcCW(65.6943,72.3668,zPos,10.5201,15.0906);
+moveArcCW(69.5476,86.9345,zPos,20.6428,2.3332);
+moveArcCW(85.0419,95.8497,zPos,17.7573,-12.9398);
+moveArcCW(102.1796,91.0923,zPos,2.5074,-24.2141);
+moveArcCW(112.2544,73.129,zPos,-15.353,-20.4177);
+moveArcCW(106.5893,53.4207,zPos,-27.7842,-2.6819);
+moveArcCW(86.1574,42.1838,zPos,-23.0743,17.7617);
+moveArcCW(63.878,48.7589,zPos,-2.8569,31.3532);
+moveArcCW(51.4775,71.6592,zPos,20.1673,25.7282);
+moveArcCW(58.9643,96.5099,zPos,34.9213,3.0324);
+moveArcCW(84.3327,110.0753,zPos,28.3805,-22.5708);
+moveArcCW(111.755,101.6756,zPos,3.2082,-38.4887);
+moveArcCW(126.486,73.8391,zPos,-24.9725,-31.0315);
+moveArcCW(117.1726,43.8453,zPos,-42.0555,-3.3843);
+liftServo();
+moveToXYZ(xPos,yPos,zPos);
+moveToXYZ(77.1071,95.25,zPos);
+dropServo();
+moveToXYZ(xPos,yPos,zPos);
+moveToXYZ(57.6911,117.5768,zPos);
+moveToXYZ(28.2915,114.2397,zPos);
+moveToXYZ(43.5257,139.6048,zPos);
+moveToXYZ(31.2669,166.5342,zPos);
+moveToXYZ(60.0982,159.8839,zPos);
+moveToXYZ(81.9214,179.8643,zPos);
+moveToXYZ(84.506,150.3891,zPos);
+moveToXYZ(110.2522,135.8083,zPos);
+moveToXYZ(83.0183,124.2419,zPos);
+moveToXYZ(77.1071,95.25,zPos);
+liftServo();
+moveToXYZ(xPos,yPos,zPos);
+moveToXYZ(0.0,0.0,zPos);
+
+}
