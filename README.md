@@ -22,12 +22,7 @@ Project Summary
    <a href="http://www.youtube.com/watch?feature=player_embedded&v=CqcDJ_57IfA" target="_blank" ><img src="http://img.youtube.com/vi/CqcDJ_57IfA/0.jpg" alt="Demo" width="480" height="360" border="10" />
    </a>
  </div>
- 
-## Table of Contents
- - [Overview](#overview)
- - [Gantry](#gantry)
- - [Hardware](#hardware)
- - [Software](#software)
+
 ## Overview
 The mechanical gantry design we 3D printed was borrowed from thingiverse (https://www.thingiverse.com/thing:2349232). It uses NEMA 17 stepper motors to control the XY movements of the gantry and an sg90 microservo to control the Y axis movement of the pen. While the thingiverse project uses an Arduino UNO, a CNC shield (which is pre-assembled circuitry for connecting the arduino to the stepper motors), and GRBL (Arduino CNC firmware), we will create our own versions of a CNC shield and GRBL. We also use a PIC18F4620 development board instead of the Arduino UNO. 
 
@@ -38,6 +33,3 @@ The mechanical gantry design we 3D printed was borrowed from thingiverse (https:
 
 <br>In between the microcontroller and NEMA 17 stepper motors are A4988 drivers. The microcontroller will output to the drivers through GPIO signals and to the servo through PWM. The firmware will dictate the GPIO and PWM signals based on the uploaded C instructions.
 <br>![Design Flow](./images/flow.png)
-## Gantry
-## Hardware
-## Software
