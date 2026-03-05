@@ -4,6 +4,7 @@
 </h1>
 <p align="center">
  Patrick Nguyen
+ Jetts Crittenden
 </p>
 <p align="center">
  Department of Electrical and Computer Engineering, Cal Poly Pomona
