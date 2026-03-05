@@ -8,9 +8,6 @@
 <p align="center">
  Department of Electrical and Computer Engineering, Cal Poly Pomona
 </p>
-<p align = "center">
- ECE 3301 Intro to Microcontrollers  
-</p>
 
 ﻿<h1 align="left">
 Project Summary
