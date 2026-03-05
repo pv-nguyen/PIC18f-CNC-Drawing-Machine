@@ -4,6 +4,7 @@
 </h1>
 <p align="center">
  Patrick Nguyen
+ <p align="center">
  Jetts Crittenden
 </p>
 <p align="center">
