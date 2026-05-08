@@ -38,4 +38,6 @@ Future Improvements
 </h1>
  <p>
    Some future improvements include setting up serial communications between the host computer and the microcontroller to allow for real time parsing and execution of commands (G-code sender). This would also eliminate the need to convert the g-code into C functions and flash the program onto the micrcontroller every time, and instead would allow the parser to just send in the command and any parameters. Additionally, a user interface on the host computer would be the next line of improvement.
+
+  In addition, this project was an open loop control system. Future improvements for precise control could be implemented with better open loop algorithms, or the use of closed loop feedback.
  </p>
